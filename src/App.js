@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+import { useLocation } from 'react-router-dom';
+import Routers from "./Router/Router";
+import Navbar from "./components/Navbar/navbar";
+import "../node_modules/toastr/toastr.scss";
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const location = useLocation().pathname.includes("/home") === true;
+
+    return (
+        <div className="App">
+            {location === true ? <Navbar /> : " "}
+            <Routers />
+        </div>
+    );
 }
 
 export default App;

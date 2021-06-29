@@ -1,0 +1,38 @@
+.login {
+    padding: 5%;
+    background-color: #ec5056;
+    height: 532px;
+    border-bottom-right-radius: 164%;
+    border-bottom-left-radius: 33%;
+}
+
+.image {
+    text-align: center;
+}
+
+.logoLogin {
+    margin-bottom: 15%;
+    width: 50%;
+}
+
+.family {
+    width: 40%;
+}
+
+.input {
+    width: 100%;
+    padding: 5% 0 0 !important;
+}
+
+.buttonLogin {
+    background-color: #ec5056 !important;
+    margin: 5% 0 0 !important;
+    width: 100%;
+    border-radius: 20px !important;
+    &:disabled {
+        background-color: #9f9f9f !important;
+        margin: 5% 0 0 !important;
+        width: 100%;
+        border-radius: 20px !important;
+    }
+}

@@ -1,0 +1,32 @@
+.home {
+    background-color: #9F9F9F;
+    padding: 20px;
+}
+
+.buttonHome {
+    background-color: #ec5056 !important;
+    color: white !important;
+    width: 100%;
+    border-radius: 5px !important;
+}
+
+.gridlist {
+    overflow: hidden;
+    height: 228px;
+    .card {
+        flex-wrap: nowrap;
+        transform: translateZ(0);
+        justify-content: space-between;
+    }
+}
+
+
+.card2 {
+    height: 200px;
+    width: 193px;
+    margin: 3px;
+    border-radius: 14px !important;
+    img {
+        object-fit: scale-down;
+    }
+}

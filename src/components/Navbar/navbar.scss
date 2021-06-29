@@ -1,0 +1,42 @@
+.Navbar {
+    background-color: #ec5056 !important;
+    color: #9F9F9F !important;
+    height: 80px;
+    .logo {
+        height: 35px;
+        margin: auto;
+        text-align: center;
+    }
+    svg {
+        width: 2em;
+        height: 2em;
+    } 
+    .colorBotton {
+        color: #ec5056 !important;
+    }
+}
+
+.drawer {
+    width: 30%;
+    .appBar {
+        background-color: #ec5056;
+        height: 100%;
+        .text {
+            padding: 12px 15px;
+            color: white;
+        }
+        .texth6{
+            padding: 12px 15px;
+            color: white;
+            position: absolute;
+            bottom: 0%;
+            cursor: pointer;
+        }
+        img{
+            height: 40px;
+            padding: 12px 19px;
+        }
+    }
+
+}
+
